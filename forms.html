@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<base target="_self">
+<title>Kurs html-zapisy</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<div id="all">
+<div id="header">
+<h1>Kurs html</h1>
+</div>
+<p class="bigforms">Kurs html- zapisy</p>
+<div id="forms">
+<form action="thanks.html" method="get">
+	<label for="imię">Imię:</label><br>
+	<input type="text" id="text" name="imię"><br>
+	<label for="nazwisko">Nazwisko:</label><br>
+	<input type="text" id="text" name="nazwisko"><br>
+	<label for="e-mail">Adres e-mail</label><br>
+	<input type="text" id="text" name="e-mail"><br>
+	<label for="kod">Kod pocztowy:</label><br>
+	<input type="text" id="text" name="kod"><br>
+	<label for="płeć">Płeć:</label><br>
+	<input type="radio" id="płeć" name="płeć" value="kobieta" >Kobieta
+	<input type="radio" id="płeć" name="płeć" value="mężczyzna">Mężczyzna<br>
+	<label for="miejsce">Miejsce szkolenia:</label><br>
+	<select name="miejsce" id="select">
+		<option>Warszawa</option>
+		<option>Kraków</option>
+		<option>Poznań</option>
+		<option>Wrocław</option>
+	</select><br>
+	<label for="pytanie">Dodatkowe pytania:</label><br>
+	<textarea name="pytanie" id="textarea" cols="25"; rows="5";></textarea><br>
+	<input type="submit" value="Prześlij">
+	<input type="reset" value="Reset">
+</form> 
+</div>
+<div id="footer">
+Kurs html &copy;;<b> Wszelkie prawa zastrzeżone</b>
+<br>
+Strona stworzona przez: <i>Łukasz Jagiełło</i>
+</div>
+</div>
+</body>
+</html>

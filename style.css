@@ -1,0 +1,117 @@
+body
+{
+	background-color:lightblue;
+	font-size:3vh;
+}
+#all
+{
+	width:90%;
+	margin:auto;
+}
+#header
+{
+	background-color:violet;
+	padding:5px;
+	text-align:center;
+}
+h1
+{
+	font-size:5vh;
+	font-family:Papyrus, sans-serif; /*Nawiązanie do Undertale ;) */
+	color:white;
+}
+#footer
+{
+	width:100%;
+	text-align:center;
+	background-color:gray;
+	padding:10px;
+	margin-top:20px;
+}
+.center
+{
+	text-align:center;
+}
+#button
+{
+	width:20%;
+	margin:auto;
+	margin-top:20px;
+	background-color:lightgray;
+	border-color:black;
+	border-style:solid;
+	border-size:2px;
+}
+/*index.html*/
+h2
+{
+	font-size:4vh;
+}
+/*forms.html*/
+.bigforms
+{
+	text-align:center;
+	font-size:6vh;
+}
+#forms
+{
+	width:90%;
+	margin-left:5%;
+}
+#text
+{
+	width:300px;
+	padding:5px;
+}
+input[type=text]:focus , textarea:focus
+{
+	border:2px solid black;
+	background-color:lightgray;
+}
+#płeć
+{
+	width:10px;
+}
+select
+{
+	width:150px;
+	padding:5px;
+	border-radius:2px;
+	border: 2px solid gray;
+	backkground-color:lightgray;
+}
+input[type=submit], input[type=reset]
+{
+	width:100px;
+	background-color:lightgray;
+	border:1px solid black;
+	border-radius:2px;
+	color:lightblack;
+	padding:10px;
+	margin:10px;
+}
+/*thanks.html*/
+.bigthank
+{
+	font-size:6vh;
+	text-align:center;
+}
+@media (max-width:800px)
+{
+	#all
+	{
+		width:100%;
+	}
+	#header
+	{
+		
+	}
+	#text
+	{
+		width:200px;
+	}
+	#button
+		{
+			width:25%;
+		}
+}
